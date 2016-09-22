@@ -1,0 +1,28 @@
+{
+  "name": "pablocarreraest.github.io",
+  "version": "1.0.0",
+  "description": "things about me",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pablocarreraest/pablocarreraest.github.io.git"
+  },
+  "keywords": [
+    "CV",
+    "me",
+    "Pablo",
+    "Carrera",
+    "Estrada",
+    "things",
+    "fun"
+  ],
+  "author": "Pablo Carrera Estrada <pablocarrera3@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pablocarreraest/pablocarreraest.github.io/issues"
+  },
+  "homepage": "https://github.com/pablocarreraest/pablocarreraest.github.io#readme"
+}
