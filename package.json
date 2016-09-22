@@ -24,5 +24,8 @@
   "bugs": {
     "url": "https://github.com/pablocarreraest/pablocarreraest.github.io/issues"
   },
-  "homepage": "https://github.com/pablocarreraest/pablocarreraest.github.io#readme"
+  "homepage": "https://github.com/pablocarreraest/pablocarreraest.github.io#readme",
+  "devDependencies": {
+    "browser-sync": "^2.16.0"
+  }
 }
