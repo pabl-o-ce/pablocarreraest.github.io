@@ -4,6 +4,7 @@
   "description": "things about me",
   "main": "index.html",
   "scripts": {
+    "start": "browser-sync start -s --files \"*.html, css/*.css\" -b \"google chrome\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
