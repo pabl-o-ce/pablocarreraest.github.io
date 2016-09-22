@@ -9,10 +9,41 @@
           .navbar-toggle .icon-bar {
             background-color: #111;
           }
+          .main-nav {
+              padding-top: 20px;
+              padding-bottom: 20px;
+              margin-bottom: -1px;
+              background-color: #3149c4;
+              background-image: -webkit-gradient(linear, left top, left bottom, from(#3d78e5), to(#3149c4));
+              background-image: -webkit-linear-gradient(top, #3d78e5 0%, #3149c4 100%);
+              background-image: -o-linear-gradient(top, #3d78e5 0%, #3149c4 100%);
+              background-image: linear-gradient(to bottom, #3d78e5 0%,#3149c4 100%);
+              filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3d78e5', endColorstr='#3149c4',GradientType=0 );
+              background-repeat: repeat-x;
+              background-clip: padding-box;
+              border-bottom: 1px solid rgba(0,0,0,0.075);
+              box-shadow: 0 0 5px rgba(0,0,0,0.1);
+          }
+
+          .main-nav li a {
+              font-family: Roboto, -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Segoe UI", Oxygen, Ubuntu, Cantarell, "Open Sans", sans-serif;
+              font-size: inherit;
+              font-weight: 500;
+              line-height: 1.5;
+              color: #fff;
+              text-shadow: 0 -1px 0 rgba(0,0,0,0.15);
+              text-align: center;
+
+          }
+          .main-nav li a:hover {
+              color: #eee;
+              background-color: transparent;
+
+          }
         </style>
     </head>
     <body>
-        <header class="">
+        <header class="site-header">
           <nav class="navbar visible-xs-* hidden-sm hidden-md hidden-lg">
             <div class="container-fluid">
               <div class="navbar-header">
@@ -36,7 +67,7 @@
             </div>
           </nav>
           <nav class="navbar hidden-xs visible-sm-* visible-md-* visible-lg-*">
-          <ul class="nav nav-justified">
+          <ul class="main-nav nav nav-justified">
             <li class="active"><a href="#aboutme">About Me</a></li>
             <li><a href="#workexp">Work Experience</a></li>
             <li><a href="#skills">Skills</a></li>
@@ -70,6 +101,7 @@
         </footer>
         <script   src="https://code.jquery.com/jquery-3.1.0.min.js"   integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s="   crossorigin="anonymous"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        <script src="https://d3js.org/d3.v4.min.js"></script>
         <script type="text/javascript">
         $(document).ready(function () {
           $(".navbar-nav li a").click(function(event) {
