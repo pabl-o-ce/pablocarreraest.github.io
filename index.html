@@ -38,7 +38,7 @@
           }
 
           .right, .left {
-          font-family: arial;
+          font-family: -apple-system, BlinkMacSystemFont, 'Lato', Calibri, Arial, sans-serif;;
           font-size: 90px;
           position: relative;
           top: 22px;
@@ -55,6 +55,24 @@
           .left {
           margin: 0 30px 0 0;
           }
+
+          @media (max-width: 415px) {
+            .title-logo{
+              font-size: 28px;
+            }
+            .subtitle-logo{
+              font-size: 10px;
+              top: -20px;
+            }
+            .right, .left {
+            font-size: 50px;
+            position: relative;
+            top: 6px;
+            color: #3149c4;
+            margin: 0 0 0 5px;
+            }
+          }
+
           .navbar-toggle .icon-bar {
             background-color: #111;
           }
