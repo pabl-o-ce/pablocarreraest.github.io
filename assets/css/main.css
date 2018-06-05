@@ -1,18 +1,25 @@
+@font-face {
+    font-family: 'Tomatoes';
+    src: url('tomatoes.ttf'); /* IE9 Compat Modes */
+    src: url('tomatoes.ttf')  format('truetype'); /* Legacy iOS */
+}
+
 html, body {
     height: 100%;
+    font-family: "Tomatoes", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     width: 100%;
     overflow: hidden;
     background: #f0f8ff;
-  }
-  main {
+}
+main {
     height: 90%;
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;
-  }
-  .sir {
+}
+.sir {
     color: #c6e2ff;
     font-family: "Tomatoes", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     font-weight: normal;
     text-align: center;
-  }
+}
