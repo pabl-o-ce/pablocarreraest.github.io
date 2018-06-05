@@ -11,7 +11,7 @@ html, body {
     overflow: hidden;
     background: #f0f8ff;
 }
-main {
+header {
     height: 90%;
     display: flex;
     flex-flow: column nowrap;
