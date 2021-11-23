@@ -1,35 +1,22 @@
 {
   "name": "pablocarreraest.github.io",
-  "version": "1.0.0",
-  "description": "things about me",
-  "main": "index.html",
+  "private": true,
   "scripts": {
-    "start": "browser-sync start -s --files \"*.html, css/*.css\" -b \"google chrome\"",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/pablocarreraest/pablocarreraest.github.io.git"
-  },
-  "keywords": [
-    "CV",
-    "me",
-    "Pablo",
-    "Carrera",
-    "Estrada",
-    "things",
-    "fun"
-  ],
-  "author": "Pablo Carrera Estrada <pablocarrera3@gmail.com>",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/pablocarreraest/pablocarreraest.github.io/issues"
-  },
-  "homepage": "https://github.com/pablocarreraest/pablocarreraest.github.io#readme",
-  "devDependencies": {
-    "browser-sync": "^2.16.0"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
   },
   "dependencies": {
-    "hamburgers": "^0.5.0"
+    "next": "12.0.4",
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "16.11.9",
+    "@types/react": "17.0.36",
+    "eslint": "7",
+    "eslint-config-next": "12.0.4",
+    "typescript": "4.5.2"
   }
 }
